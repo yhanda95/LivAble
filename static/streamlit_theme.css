@@ -1,0 +1,16 @@
+
+:root {
+    --primary-color: #1abc9c;
+    --secondary-color: #e6f3f0;
+    --text-color: #2c3e50;
+}
+
+body, .stApp {
+    background-color: var(--secondary-color) !important;
+    color: var(--text-color);
+}
+
+.stButton>button {
+    background-color: var(--primary-color) !important;
+    color: white !important;
+}
