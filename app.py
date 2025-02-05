@@ -94,14 +94,7 @@ def analyze_page():
     st.title("Livability Analysis Dashboard")
     st.markdown("""
     <div class="dashboard-container">
-        <iframe 
-            title="report_mini_project" 
-            width="900" 
-            height="525" 
-            src="https://app.powerbi.com/reportEmbed?reportId=47b2c1af-0d91-4115-a159-112f1a4a1fca&autoAuth=true&ctid=29d6b2c1-5a07-49dc-ad3b-a84fe545e6d9" 
-            frameborder="0" 
-            allowFullScreen="true">
-        </iframe>
+        <iframe title="report_mini_project" width="900" height="550" src="https://app.powerbi.com/reportEmbed?reportId=47b2c1af-0d91-4115-a159-112f1a4a1fca&autoAuth=true&ctid=29d6b2c1-5a07-49dc-ad3b-a84fe545e6d9" frameborder="0" allowFullScreen="true"></iframe>
     </div>
     """, unsafe_allow_html=True)
     
